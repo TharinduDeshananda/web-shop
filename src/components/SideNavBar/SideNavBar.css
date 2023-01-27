@@ -1,0 +1,36 @@
+.side-nav-container {
+  background-color: cornflowerblue;
+  position: fixed;
+  left: 0px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  padding: 1rem;
+  padding-left: 2rem;
+  height: 100%;
+}
+
+.nav-bar-item {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+.nav-bar-item-title {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.nav-bar-item ion-icon {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-bar-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.top-bar-container {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: max-content;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  border-bottom-right-radius: 3rem;
+}
+
+.logo-content {
+  padding: 1rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+.title-content {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.util-content {
+}
+
+.top-bar-logo-img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0rem 2rem;
+  align-self: center;
+  justify-self: center;
+  color: white;
+}
